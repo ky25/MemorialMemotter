@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.kyosuke25.MemorialMemotter"
+      android:versionName="1.0.1" android:versionCode="2">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name="MemorialMemotter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name="AddAnniversary"></activity>
+<activity android:name="SettingsPreferenceActivity"></activity>
+<activity android:name="TwitterLogin"></activity>
+
+<meta-data android:value="a14c90eb3cd5af9" android:name="ADMOB_PUBLISHER_ID"></meta-data>
+
+<receiver android:name="MemorialMemotterWidgetProvider">
+<intent-filter android:icon="@drawable/icon">
+<action android:name="android.appwidget.action.APPWIDGET_UPDATE"></action>
+</intent-filter>
+<meta-data android:resource="@xml/widget_provider" android:name="android.appwidget.provider"></meta-data>
+</receiver>
+</application>
+    <uses-sdk android:minSdkVersion="4" />
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+</manifest>

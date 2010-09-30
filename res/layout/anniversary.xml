@@ -1,0 +1,20 @@
+
+
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/anniversaries" android:collapseColumns="3,4,5,6,7" android:stretchColumns="1">
+	<TableRow android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/anniversary"><CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:id="@+id/checkbox_for_anniversary" android:focusable="false"></CheckBox>
+		
+		
+		
+	
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/anniversary_display" android:layout_gravity="center_vertical" android:layout_marginLeft="20px" android:textSize="30px"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/anniversary_count_display" android:layout_gravity="center_vertical" android:textSize="30px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="invisible" android:id="@+id/anniversary_year_display"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18px" android:visibility="invisible" android:id="@+id/anniversary_month_display"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/anniversary_day_display" android:visibility="invisible"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/anniversary_date_display" android:visibility="invisible"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/anniversary_count_style_display" android:visibility="invisible"></TextView>
+
+
+</TableRow>
+</TableLayout>

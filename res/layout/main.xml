@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	android:id="@+id/LinearLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:kyosuke25="http://schemas.android.com/apk/res/com.kyosuke25.MemorialMemotter"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+<com.admob.android.ads.AdView
+	android:id="@+id/ad"
+	android:layout_width="fill_parent"
+	kyosuke25:backgroundColor="#000000"
+	kyosuke25:primaryTextColor="#FFFFFF"
+	kyosuke25:secondaryTextColor="#CCCCCC"
+	android:layout_gravity="bottom"
+	kyosuke25:testing="false"
+	android:layout_height="wrap_content"/>
+
+<FrameLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/main_frame">
+
+<ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/dialog_divider_horizontal_light" android:id="@+id/anniversary_list"></ListView>
+
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|left" android:src="@drawable/ic_menu_add" android:id="@+id/add_anniversary_menu_button"></ImageView>
+
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|right" android:src="@drawable/ic_twitter" android:id="@+id/tweet_button"></ImageView>
+
+</FrameLayout>
+
+</LinearLayout>
+

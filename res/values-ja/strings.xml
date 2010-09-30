@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">メモリアルメモったー</string>
+<string name="add_button_title">追加</string>
+<string name="anniversary_hint">記念日の内容を入力してください。</string>
+<string name="cancel_button_title">キャンセル</string>
+<string name="countdown_radio_title">「あと○日」形式</string>
+<string name="countup_radio_title">「○日目」形式</string>
+<string name="countdown_style_without_space">日</string>
+<string name="countup_style_without_space"></string>
+<string name="tomorrow_style">明日</string>
+<string name="error_literal">エラー</string>
+<string name="today_style">今日</string>
+<string name="countup_style_postfix">日目</string>
+<string name="countdown_style_prefix">あと</string>
+<string name="twitter_connect_setting">Twitterアカウントの設定</string>
+<string name="twitter_connect_setting_detail">OAuthを使ってTwitterと連携します。</string>
+<string name="settings">設定</string>
+<string name="twitter_disconnect">Twitterアカウントの設定解除</string>
+<string name="twitter_connect">Twitterアカウントの設定</string>
+<string name="twitter_connect_error">何らかの理由によりアカウント設定ができませんでした。再度、設定をしてください。</string>
+<string name="twitter_disconnect_setting_detail">Twitter設定を削除します。</string>
+<string name="menu_settings_title">設定</string>
+<string name="tweet_complete_message">ツイートしました。</string>
+<string name="delete_button_title">削除</string>
+<string name="unchecked_message">いずれかの記念日を選択してください。</string>
+<string name="tweet_send_error">正しく認証されていないか、同じ内容でツイートしました。再度認証するか、記念日を変更してください。</string>
+<string name="auth_error_message">認証エラーが発生しました。</string>
+<string name="count_spacer"></string>
+<string name="date_format">M/d(E)</string>
+</resources>

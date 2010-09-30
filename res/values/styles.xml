@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<drawable name="translucent_background">#44000000</drawable>
+    <style name="Theme.Transparent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/border</item>
+    </style>
+</resources>

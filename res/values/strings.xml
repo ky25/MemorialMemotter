@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">MemorialMemotter</string>
+<string name="add_button_title">Add</string>
+<string name="anniversary_hint">input an anniversary...</string>
+<string name="cancel_button_title">Cancel</string>
+<string name="countdown_radio_title">\&quot;10 days after\&quot; style</string>
+<string name="countup_radio_title">\&quot;day 10\&quot; style</string>
+<string name="countdown_style_without_space">days after</string>
+<string name="countup_style_without_space">day</string>
+<string name="tomorrow_style">tomorrow</string>
+<string name="error_literal">error</string>
+<string name="today_style">today</string>
+<string name="countup_style_postfix"></string>
+<string name="countdown_style_prefix"></string>
+<string name="twitter_connect_setting">Associated with Twitter</string>
+<string name="twitter_connect_setting_detail">Connect to Twitter with OAuth.</string>
+<string name="settings">Settings</string>
+<string name="twitter_disconnect">Disconnect Twitter</string>
+<string name="twitter_connect">Connect Twitter</string>
+<string name="twitter_connect_error">Connect Error. Try again.</string>
+
+<string name="twitter_disconnect_setting_detail">Disconnect Twitter.</string>
+
+<string name="menu_settings_title">Settings</string>
+<string name="hashtag">#mm25</string>
+<string name="tweet_complete_message">Tweet complete.</string>
+<string name="delete_button_title">Delete</string>
+<string name="unchecked_message">Select any anniversaries.</string>
+<string name="tweet_send_error">Authorization data is wrong or you sent a same tweet.Re-authorize or update your anniversaries.</string>
+<string name="auth_error_message">Authorize error.</string>
+<string name="count_spacer"> </string>
+<string name="date_format">E,MMM d</string>
+</resources>
